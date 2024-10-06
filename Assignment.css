@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(1, 1, 85);
+    div {
+        width:300px;
+        margin:0;
+      }
+}
