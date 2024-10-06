@@ -1,47 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assignment.css">
-    <title>Mohamamd</title>
+    <title>Mohammad</title>
+    <style>
+        .menu-bar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .menu-bar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-bar ul li {
+            float: left;
+        }
+
+        .menu-bar ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .menu-bar ul li a:hover {
+            background-color: #111;
+        }
+
+       
+        .menu-bar:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
 </head>
-<body><div><!--Remember put comments lil nigga and paragraph and form and link-->
+
+<body>
     
-    <h1 style="background-color:rgb(255, 0, 0);">Mohammad Abulibdeh</h1>
+    <div class="menu-bar">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#fav-hobby">Favorite Hobby</a></li>
+            <li><a href="#future">Future Goals</a></li>
+            <li><a href="#project">Project</a></li>
+        </ul>
+    </div>
 
-    <img src="cat-guys-have-bad-news-theronswag-woke-up-again.png" width=30>
-    
-   
-</div>
-    <p style="background-color:rgb(77, 255, 71);">My name is Mohammad Abulibdeh, 19 years old, 2nd year student in Computer Science Apprenticeship Proggram</p>
+<!--My name-->
 
-    <ul>
-        <li><a href="https://en.wikipedia.org/wiki/Basketball" target="_blank"><p style="color:red;">Basketball</p></a></li><img src="basketball.jpeg" width="200"> 
-        <li><a href="https://en.wikipedia.org/wiki/Reading" target="_blank"><p style="color:red;">Reading</p></a></li><img src="reading.jpg" width="200">
-        <li><a href="https://en.wikipedia.org/wiki/Video_game" target="_blank"><p style="color:red;">Video games</p></a></li><img src="videogames.jpeg" width="200">
-    </ul>
+    <div class="name" id="about">
+        <h1 style="background-color:rgb(205, 205, 205);">Mohammad Abulibdeh</h1> 
+    </div>
+<!--paragraph about me-->
+    <div class="para1">
+        <p style="background-color:rgb(205, 205, 205);">My name is Mohammad Abulibdeh, 19 years old, 2nd year student in
+            Computer Science Apprenticeship Proggram dreaming to be a successful programmer.</p>
+    </div>
+<!--My hobbies-->
+    <div class="hobbies" id="hobbies">
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Basketball" target="_blank">
+                    <p style="color:rgb(0, 0, 0);">Basketball</p>
+                </a></li><img src="basketball.jpeg" alt="basketball" width="200">
+            <li><a href="https://en.wikipedia.org/wiki/Reading" target="_blank">
+                    <p style="color:rgb(0, 0, 0);">Reading</p>
+                </a></li><img src="reading.jpg" alt="reading" width="200">
+            <li><a href="https://en.wikipedia.org/wiki/Video_game" target="_blank">
+                    <p style="color:rgb(0, 0, 0);">Video games</p>
+                </a></li><img src="videogames.jpeg" alt="videogames" width="200">
+        </ul>
+    </div>
+<!--My fav hobby-->
+    <div class="fav-hobby1" id="fav-hobby">
+        <p style="background-color: rgb(205, 205, 205);">Guess my favourite hobby:</p>
+    </div>
 
-    
-       <div>
-        
-        <p>Guess my favourit hobby</p>
-
-        <form action="True.html">
-          <input type="radio" id="Basketball" name="fav_hobby" value="Basketball">
-          <label for="Basketball">Basketball</label><br>
-          <input type="radio" id="Reading" name="fav_hobby" value="Reading">
-          <label for="Reading">Reading</label><br>
-          <input type="radio" id="videogames" name="fav_hobby" value="Videogames">
-          <label for="Videogames">Videogames</label>
-          <input type="submit" value="Submit">
+    <div class="fav-hobby2">
+        <form style="background-color: rgb(205, 205, 205);">
+            <input type="radio" id="Basketball" name="fav_hobby" value="Basketball">
+            <label for="Basketball">Basketball</label><br>
+            <input type="radio" id="Reading" name="fav_hobby" value="Reading">
+            <label for="Reading">Reading</label><br>
+            <input type="radio" id="videogames" name="fav_hobby" value="Videogames">
+            <label for="Videogames">Videogames</label>
         </form>
-
-        <p style="background-color: aliceblue;"> aswe </p>
-
-        <link>https://github.com/MohammadAbulibdeh2/Web-1-Assignments/tree/main/Assignment1
-      
+    </div>
+<!--My future when i grow up-->
+    <div class="para2" id="future">
+        <p style="background-color: rgb(205, 205, 205);">In the future, I will try to improve my programming skills, and
+            try my best to help anyone studying programming to learn from my experience as much as I can.</p>
+    </div>
+<!--links-->
+    <div class="link1" id="project">
+        <p style="background-color: rgb(205, 205, 205);">Previous Project:
+            <link>https://github.com/MohammadAbulibdeh2/Web-1-Assignments/tree/main/Assignment1<link>
+            
+        </p>
+    </div>
     
-</div>
+    <div class="link2">github repo: https://github.com/MohammadAbulibdeh2/Assignment-2</div>
 </body>
+
 </html>
